@@ -14,7 +14,7 @@ with st.sidebar:
     st.image("logo.png") 
     st.title("Bangun Datar")
     pilihan = st.selectbox("Pilihan Bangun Datar", ["Persegi", "Persegi Panjang", "Lingkaran", "Segitiga", "Trapesium"])
-    st.caption("Dibuat oleh **Farah & Alifa**")
+    st.caption("Dibuat oleh **Farah**")
 
 match pilihan:
     case "Persegi":
